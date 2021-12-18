@@ -1,7 +1,7 @@
 # początki tworzenia klas
 
 from typing import List
-from kot import KOT
+from kot import KOT # import klasy KOT z pliku kot.py
 
 # class MojaKlasa:
 #     def wyswietl():
