@@ -1,2 +1,5 @@
 #%%
-# Tutaj bedzie główny kad gry.
+# Tutaj będzie główny kod gry.
+#test
+# test2
+
