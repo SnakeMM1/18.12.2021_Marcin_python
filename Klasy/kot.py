@@ -36,3 +36,5 @@ kot1.jedzenie()
 #print(kot1.waga)
 kot1.jedzenie()
 #
+
+print((KOT))

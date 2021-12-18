@@ -1,7 +1,7 @@
 # początki tworzenia klas
 
 from typing import List
-
+from kot import KOT
 
 # class MojaKlasa:
 #     def wyswietl():
@@ -64,3 +64,6 @@ for i in range (1, 10):
     print(Szopa.Pomalowanebud)
 print(ilosc_calk_metrow_do_pomalowania)   
 
+Garfield = KOT()
+Garfield.wiek = 12
+print(Garfield.miauczenie())
