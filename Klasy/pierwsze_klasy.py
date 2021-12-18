@@ -36,11 +36,12 @@ print(WTC.malowanie())
 
 class Szopa:
 
-    
+    Pomalowanebud = 0
     def __init__(self, bok_a, bok_b, wys_h): # konstruktor klasy. i tu sa zmiene lokalne ktore przychodza z zewnatrz
         self.podstawa_a = bok_a
         self.podstawa_b = bok_b
         self.wysokosc_h = wys_h
+        Szopa.Pomalowanebud+=1  #ile razy inicjujemy nowy obiekt licznik sie nam zwieksza i wiemy ile budynkow mozemy pomalowac (ile razy robilismy obliczenia)
      
 
 
@@ -52,12 +53,14 @@ class Szopa:
         
 
 X = 0       
-szopa1 = Szopa(2,3,5)
-print(szopa1.malowanie())
-szopa2 = Szopa(5,6,7)
-print(szopa2.malowanie())
+# szopa1 = Szopa(2,3,5)
+# print(szopa1.malowanie())
+# szopa2 = Szopa(5,6,7)
+# print(szopa2.malowanie())
 for i in range (1, 10):
     szopa3 = Szopa(i,i+1,i+2)
     print(szopa3.malowanie())
-    
+    ilosc_calk_metrow_do_pomalowania =+ szopa3.malowanie()
+    print(Szopa.Pomalowanebud)
+print(ilosc_calk_metrow_do_pomalowania)   
 
