@@ -27,7 +27,7 @@ Simba.wiek = 35
 Simba.waga = 450
 
 Zwierzak = Zwierze("fff", 400, 300)
-print(f"{Zwierzak}")
+print(f"{Zwierzak._nazwa}")
 
 Simba.podaj_dane()
 Dumbo.podaj_dane()
@@ -43,4 +43,3 @@ class Hybryda(Lew, Papuga): # dziedziczeniee z kliku klas
     pass
 
 hyb = Hybryda()
-hyb.
