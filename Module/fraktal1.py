@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-x = np.linspace(-2,2,1000)
-y = np.linspace(-1,1,1000)
+x = np.linspace(-2,2,100)
+y = np.linspace(-1,1,100)
 x_axis = []
 y_axis = []
 
@@ -24,3 +24,4 @@ def mandel(c):
 
 mandel_set(x,y)
 plt.scatter(x,y)
+plt.show()
