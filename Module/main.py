@@ -4,6 +4,9 @@ import datetime
 today = datetime.datetime.today()
 print(today)
 
+today1 = datetime.date.today()
+print(today1)
+
 d1 = datetime.date(2013, 1, 1)
 print (d1)
 
